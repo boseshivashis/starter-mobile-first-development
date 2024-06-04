@@ -9,21 +9,62 @@ main h1 {
   font-size: 65px;
 }
 
-main h2 {
+/* main h2 { */
+.item h2 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
   font-size: 24px;
 }
 
-main h3 {
+/* main h3 { */
+.item h3 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
   font-size: 18px;
 }
 
-main p {
+/* main p { */
+.item p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+
+
+
+/* Groups & Items */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  max-width: 40%;
+  max-height: 60%;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
