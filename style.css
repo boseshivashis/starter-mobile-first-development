@@ -25,7 +25,6 @@ main h1 {
   font-size: 18px;
 }
 
-/* main p { */
 .item p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
@@ -43,8 +42,6 @@ main h1 {
 .item {
   flex: 1;
   margin: 10px;
-  max-width: 40%;
-  max-height: 60%;
 }
 
 .item-double {
@@ -52,9 +49,11 @@ main h1 {
   margin: 10px;
 }
 
-.item img {
+main img {
   width: 100%;
 }
+
+
 
 /* Groups & Items  (Desktop) */
 
